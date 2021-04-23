@@ -7,10 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/estilo/style.css">
     <title>Old Games</title>
   </head>
   <body>
+
+<div class="container">
+   
           <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
@@ -23,16 +26,19 @@
       <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+            <a class="nav-link" href="index.html" target="_self">Home <span class="sr-only">(página atual)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="fotos.html">Fotos</a>
+            <a class="nav-link" href="#" >Fotos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="video.html" target="_self">Video</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="card.html" target="_self">Cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html" target="_self">Formulario</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,20 +63,87 @@
     </nav>
 <!--/NAVBAR -->
 
+<!--jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 text-center">Entre em contato conosco</h1>
+    <p class="lead"></p>
+  </div>
+</div>
+<!--/jumbotron -->
 
 
 
-           <div class="container">
-           
-           </div>   
+<br>
+<br>
+<!--gir fotos -->
+
+
+<div class="d-flex justify-content-center"><img src="/img/coguma.png" width="300" height="250"  alt="">
+</div>
+
+<!--/gir fotos -->
+
+<!--form -->
+
+<br>
+<br>
+
+<form>
+    <div class="form-group mb-5">
+      <label for="exampleInputEmail1">Endereço de email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Senha</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+    </div>
+    <div class="form-group form-check">
+        <textarea name="textoarea"  rows="5" cols="30" class="form-check-input" id="exampleCheck1"></textarea>
+        <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+<br>
+<br>
+  
+
+<!--/form -->
+
+
+    
+      <hr>
+        <footer class="row d-flex justify-content-center mt-5 mb-5"  >
+            <div class="col-md-12 text-center">
+                <p>Todos direitos reservados para: Daniel Macedo de Oliveira &copy;</p>
+              </div>
+
+                <div class="col-md-6 text-center">
+
+                <a href="https://www.linkedin.com/in/danieloliver11/" target="_blank">
+                <img class="tm-social" src="img/logoLin.png" width="100" height="100" alt="linkedin ">
+                </a>
+        
+                <a href="https://github.com/Danieloliver11" target="_blank">
+                    <img class="tm-social" src="img/git.png" width="100" height="100"  alt="githube ">
+                    </a>
+        </div>
+        </footer>
 
 
 
 
 
-
-
-
+</div>
 
 
 
